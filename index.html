@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilliance Unleashed Forum</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            background-image: url(image.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .jumbotron {
+            background: url('background-image.jpg') center center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 0;
+        }
+        .navbar {
+            background-color: #343a40 !important; /* Bootstrap default is #007bff, changed to dark */
+            padding: 1rem 0;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+        .section {
+            padding: 80px 0;
+        }
+        .section-heading {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+        .feature-item {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .testimonial {
+            background-color: #fff;
+            padding: 40px 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .testimonial p {
+            font-size: 1.2rem;
+        }
+        .testimonial cite {
+            font-style: normal;
+            font-size: 1.1rem;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 40px 0;
+        }
+        .footer-links {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .footer-links a {
+            color: #f8f9fa;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Brilliance Unleashed Forum</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Brilliance Unleashed Forum</h1>
+            <p class="lead">Empowering Minds, Inspiring Ideas</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat, lorem ut faucibus tincidunt, turpis ex commodo mauris, sit amet scelerisque elit mi id eros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-heading text-center mb-5">Key Features</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-users feature-icon"></i>
+                        <h3>Active Community</h3>
+                        <p class="text-muted">Join a vibrant community of thinkers and doers.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-lightbulb feature-icon"></i>
+                        <h3>Inspiring Ideas</h3>
+                        <p class="text-muted">Discover and share innovative ideas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-comments feature-icon"></i>
+                        <h3>Engaging Discussions</h3>
+                        <p class="text-muted">Engage in meaningful conversations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading text-center">Testimonials</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="testimonial text-center">
+                        <p class="lead">"Great platform to share and learn!"</p>
+                        <cite>John Doe</cite>
+                    </div>
+                    <div class="testimonial text-center">
+                        <p class="lead">"I found the discussions very insightful."</p>
+                        <cite>Jane Smith</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style=" background-color: rgba(0, 0, 0, 0.5);" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <h2 class="section-heading text-center mb-5">Contact Us</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <p>123 Street Name, City, Country</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +123 456 789</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook fa-lg mr-3"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-lg mr-3"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-lg mr-3"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
